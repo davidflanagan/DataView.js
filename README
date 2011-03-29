@@ -1,0 +1,7 @@
+The DataView.js module implements the DataView class from the TypedArray
+specification.  It is useful for Firefox 4 which implements typed arrays
+but not DataView.  
+
+It passes the DataView unit tests in the Webkit tree:
+
+http://trac.webkit.org/browser/trunk/LayoutTests/fast/canvas/webgl/data-view-test.html?rev=78738
